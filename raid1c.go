@@ -9,7 +9,7 @@ func main() {
 	Raid1c(1, 5)
 }
 
-func Raid1c (x, y int) {
+func Raid1c(x, y int) {
 	if x > 0 && y > 0 {
 		for i := 1; i <= y; i++ {
 			if i == 1 {
