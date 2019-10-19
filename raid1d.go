@@ -12,7 +12,7 @@ func main() {
 func Raid1d(x, y int) {
 	if x > 0 && y > 0 {
 		for i := 1; i <= y; i++ {
-			if i == 1 || i == y  {
+			if i == 1 || i == y {
 				for j := 1; j <= x; j++ {
 					if j == 1 {
 						z01.PrintRune('A')
