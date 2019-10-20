@@ -2,13 +2,6 @@ package student
 
 import "github.com/01-edu/z01"
 
-func main() {
-	Raid1e(5, 1)
-	Raid1e(5, 3)
-	Raid1e(1, 1)
-	Raid1e(1, 5)
-}
-
 func Raid1e(x, y int) {
 	if x > 0 && y > 0 {
 		for i := 1; i <= y; i++ {
